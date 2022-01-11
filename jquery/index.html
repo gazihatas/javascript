@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script>
+
+            $(document).ready(function(){
+                $('sbutton').click(function(){
+                  
+                    if($("img").css('display')== "none") {
+                        $("img").show("slow");
+                    } else {
+                        $("img").hide(1000);
+                    }
+                });
+
+                $("bautton").click(function(){
+                    $("img").fadeToggle();
+                });
+
+                $("button").click(function(){
+                    $img("img").fadeTo("slow",0,bitti);
+                });
+                function bitti(){
+                    alert("efekt bitti");
+                }
+            })
+    </script>
+</head>
+<body>
+    
+
+            <button>Gizle / Göster</button>
+            <br>
+            <img src="sari-1.jpg" alt="" width="150px">
+
+            
+    
+    
+
+</body>
+</html>

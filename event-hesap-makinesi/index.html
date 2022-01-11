@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Uygulama</title>
+</head>
+<body>
+    
+    Sayı 1 : <input type="text" id="sayi1">
+    Sayı 2 : <input type="text" id="sayi2">
+
+    <button onclick="toplam()">+</button>
+    <button onclick="fark()">-</button>
+    <button onclick="carpim()">*</button>
+    <button onclick="bolum()">/</button>
+    
+    <br>
+    <strong>Sonuç</strong>
+    <div id="result"></div>
+
+    <script>
+        var result = document.getElementById("result");
+        var sayi1 = document.getElementById("sayi1");
+        var sayi2 = document.getElementById("sayi2");
+
+        function toplam(){
+            result.innerHTML = parseInt(sayi1.value) + parseInt(sayi2.value);
+        }
+
+        function fark() {
+            result.innerHTML = parseInt(sayi1.value) - parseInt(sayi2.value);
+        }
+
+        function carpim() {
+            result.innerHTML = parseInt(sayi1.value) * parseInt(sayi2.value);
+        }
+
+        function bolum() {
+            result.innerHTML = parseInt(sayi1.value) / parseInt(sayi2.value);
+        }
+    </script>
+</body>
+</html>

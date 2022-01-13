@@ -1,6 +1,6 @@
 # JS Ödev 1 | Javascript Saat ve Karşılama
 
-[Patika.dev](https://www.patika.dev/) Patika.dev eğitim platformu javascript bölümü 
+[Patika.dev](https://www.patika.dev/) eğitim platformu javascript bölümü. 
 
 ![](img/odev.gif)
 
@@ -10,7 +10,7 @@
 Öncelikle projeyi klonlayın
 
 ```
-https://github.com/gazihatas/kodluyoruzilkrepo.git
+https://github.com/gazihatas/PatikaDev.git
 ```
 
 ## Usage 
@@ -20,7 +20,7 @@ Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
 Linux için:
 
 ```
-cd kodluyoruzilkrepo
+cd PatikaDev/patikaJS/javascriptclock/
 code .
 ```
 
@@ -31,3 +31,8 @@ Pull requestler kabul edilir. Büyük deeğişiklikler için, lütfen önce neyi
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Kodluyoruz and Patika.dev
+![](img/kodluyoruz-logo.png)
+![](img/patika.jpg)
+
